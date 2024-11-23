@@ -77,6 +77,23 @@
           },
           "defaultConfiguration": "development"
         },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "rfid-project:build:production",
+              "serveTarget": "rfid-project:serve:production"
+            },
+            "development": {
+              "buildTarget": "rfid-project:build:development",
+              "serveTarget": "rfid-project:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },

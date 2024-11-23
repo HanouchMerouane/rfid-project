@@ -1,0 +1,9 @@
+{
+    "hosting": [
+    {
+    "target": "rfid-project",
+    "source": ".",
+    "frameworksBackend": {}
+    }
+    ]
+}

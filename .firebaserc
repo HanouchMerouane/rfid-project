@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rfid-project-98dbe": {
+      "hosting": {
+        "rfid-project": [
+          "rfid-project-98dbe"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rfid-project-98dbe"
+  }
+}
